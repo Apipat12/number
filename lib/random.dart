@@ -10,7 +10,7 @@ class Game {
   Game(int maxRandom) {
     var r = Random();
     answer = r.nextInt(maxRandom) + 1;
-    print(answer);
+    //print(answer);
   }
   int doGuess(int guess) {
     _count++;
